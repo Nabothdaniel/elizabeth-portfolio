@@ -7,6 +7,7 @@ import Features from "../components/landing/features";
 import HowItWorks from "../components/landing/how-it-works";
 import PricingSection from "../components/landing/pricing";
 import Teams from "../components/landing/our-team";
+import Testimonials from "../components/landing/testimonials";
 const LandingPage = () => {
     return (
         <section className="min-h-screen max-w-7xl mx-auto">
@@ -17,7 +18,8 @@ const LandingPage = () => {
             <Features />
             <HowItWorks />
             <PricingSection />
-            <Teams/>
+            <Teams />
+            <Testimonials />
         </section>
     )
 }

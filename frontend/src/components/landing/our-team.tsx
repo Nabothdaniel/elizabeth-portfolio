@@ -1,10 +1,10 @@
 import { ArrowUpRight } from "lucide-react";
 import { motion } from "framer-motion";
 
-import  Ceo1 from '../../assets/img/landing/ceo1.jpg'
-import  Ceo2 from '../../assets/img/landing/ceo2.jpg'
-import  Ceo3 from '../../assets/img/landing/ceo3.jpg'
-import  Ceo4 from '../../assets/img/landing/ceo4.jpg'
+import Ceo1 from '../../assets/img/landing/ceo1.jpg'
+import Ceo2 from '../../assets/img/landing/ceo2.jpg'
+import Ceo3 from '../../assets/img/landing/ceo3.jpg'
+import Ceo4 from '../../assets/img/landing/ceo4.jpg'
 
 // Example team data — replace with your actual team info
 const teamMembers = [
@@ -35,10 +35,10 @@ const Teams = () => {
   return (
     <section className="py-20 bg-white px-4">
       <div className="max-w-7xl mx-auto text-center mb-14">
-        <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
+        <h2 className="text-3xl sm:text-4xl font-bold text-indigo-600">
           We are the people who make up Kuwait Investment Company
         </h2>
-        <p className="text-gray-600 mt-4">Meet our passionate and talented team</p>
+        <p className="text-gray-600 text-lg mt-4">Meet our passionate and talented team</p>
       </div>
 
       <motion.div
@@ -66,8 +66,9 @@ const Teams = () => {
               <img
                 src={member.image}
                 alt={member.name}
-                className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition"
+                className="w-full h-full object-cover object-top grayscale group-hover:grayscale-0 transition"
               />
+
               <ArrowUpRight className="absolute bottom-2 right-2 text-white bg-black p-1 rounded-full w-6 h-6 opacity-0 group-hover:opacity-100 transition" />
             </div>
             <h3 className="text-lg font-semibold text-gray-800">{member.name}</h3>
