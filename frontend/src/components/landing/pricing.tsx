@@ -1,5 +1,5 @@
 import { CheckCircle } from "lucide-react";
-import { motion } from "framer-motion";
+import { motion,easeOut } from "framer-motion";
 
 const plans = [
     {
@@ -81,7 +81,7 @@ const containerVariants = {
             staggerChildren: 0.15,
             delayChildren: 0.2,
             duration: 0.5,
-            ease: "easeOut",
+            ease: easeOut,
         },
     },
 };

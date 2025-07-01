@@ -2,48 +2,55 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
+import Testimonial1 from '../../assets/img/landing/testimonial2.jpg'
+import Testimonial2 from '../../assets/img/landing/testimonial3.jpg'
+import Testimonial3 from '../../assets/img/landing/testimonial4.jpg'
+import Testimonial5 from '../../assets/img/landing/testimonial5.jpg'
+import Testimonial6 from '../../assets/img/landing/testimonial6.jpg'
+import Testimonial8 from '../../assets/img/landing/testimonial8.jpg'
+
 const testimonials = [
     {
         name: "Fatima Al-Hamad",
         username: "@fatima_h",
         quote:
             "Kuwait Investments transformed the way we approach long-term wealth. Their strategic insights helped secure my family’s future.",
-        image: "/avatars/fatima.jpg",
+        image: Testimonial1,
     },
     {
         name: "Mohammad Al-Farsi",
         username: "@moh_farsi",
         quote:
             "Professional, insightful, and dedicated — Kuwait Investments helped diversify my portfolio beyond expectations.",
-        image: "/avatars/mohammad.jpg",
+        image: Testimonial2,
     },
     {
         name: "Layla Youssef",
         username: "@layla_y",
         quote:
             "As a first-time investor, Kuwait Investments gave me the tools and confidence to start building wealth with clarity.",
-        image: "/avatars/layla.jpg",
+        image: Testimonial3,
     },
     {
         name: "Salem Nasser",
         username: "@salem_n",
         quote:
             "Their customer support and financial advisory services are unmatched. Highly recommend to serious investors.",
-        image: "/avatars/salem.jpg",
+        image: Testimonial5,
     },
     {
         name: "Aisha Rahman",
         username: "@aisha_rahman",
         quote:
             "Kuwait Investments is more than just a firm — it’s a partner in your financial journey.",
-        image: "/avatars/aisha.jpg",
+        image: Testimonial6,
     },
     {
         name: "Omar Khalid",
         username: "@omar_k",
         quote:
             "Trustworthy, transparent, and result-driven. I’ve seen real growth thanks to their expert strategies.",
-        image: "/avatars/omar.jpg",
+        image: Testimonial8,
     },
 ];
 
