@@ -1,32 +1,34 @@
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import Header from "../components/landing/Header";
+import HeroSection from "../components/landing/HeroSection";
+import CraftingSection from "../components/landing/CraftingSection";
+import StatsSection from "../components/landing/Stats";
+import ServicesSection from "../components/landing/ServicesSection";
+import AboutSection from "../components/landing/AboutSection";
 
-import Header from "../components/landing/header";
-import Hero from "../components/landing/hero";
-import Info from "../components/landing/info";
-import Brands from "../components/landing/brands";
-import Features from "../components/landing/features";
-import HowItWorks from "../components/landing/how-it-works";
-import PricingSection from "../components/landing/pricing";
-import Teams from "../components/landing/our-team";
-import Testimonials from "../components/landing/testimonials";
-import ContactForm from "../components/landing/contact-us";
-import Footer from "../components/landing/footer";
 const LandingPage = () => {
-    return (
-        <section className="min-h-screen max-w-[85rem] mx-auto">
-            <Header />
-            <Hero />
-            <Info />
-            <Brands />
-            <Features />
-            <HowItWorks />
-            <PricingSection />
-            <Teams />
-            <Testimonials />
-            <ContactForm/>
-            <Footer />
-        </section>
-    )
-}
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+      easing: 'ease-out-cubic',
+    });
+  }, []);
 
+  return (
+    <div className="relative">
+      <Header />
+      <main className="w-full lg:mr-[420px]">
+        <HeroSection />
+        <CraftingSection />
+        <StatsSection />
+        <AboutSection/>
+        <ServicesSection />
+      </main>
+    </div>
+  );
+};
 
-export default LandingPage
+export default LandingPage;
