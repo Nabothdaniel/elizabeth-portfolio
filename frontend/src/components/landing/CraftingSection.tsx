@@ -36,7 +36,7 @@ export default function CraftingSection() {
         <section className="relative w-full min-h-[80vh] md:min-h-screen flex flex-col py-10 md:py-5 items-center justify-center bg-gradient-to-b from-slate-900 via-slate-800 to-white overflow-hidden">
             {/* Decorative skewed gradient background */}
             <div className="absolute inset-0 flex justify-center items-center">
-                <div className="w-[90%] md:w-[70%] h-[50vh] md:h-[70vh] bg-gradient-to-tr from-indigo-500 via-purple-500 to-pink-500 transform -skew-y-6 rounded-3xl opacity-30 blur-2xl"></div>
+                <div className="w-[90%] md:w-[70%] h-[50vh] md:h-[70vh] bg-gradient-to-tr from-indigo-500 via-purple-500 to-pink-500 transform -skew-y-6 opacity-30 blur-2xl"></div>
             </div>
 
             {/* Content */}

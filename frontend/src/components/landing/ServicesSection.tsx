@@ -277,7 +277,7 @@ const ServicesSection = () => {
               href="https://wa.me/1234567890"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 px-5 py-3 bg-green-500 text-white font-bold rounded-lg hover:bg-green-600 transition"
+              className="flex items-center justify-center gap-2 px-5 py-3 bg-green-500 text-white font-bold rounded-lg hover:bg-green-600 transition"
             >
               <FaWhatsapp /> WhatsApp Me
             </a>
