@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import AOS from "aos";
-//import HeaderSection from "../components/landing/Header";
+import HeaderSection from "../components/landing/Header";
 import HeroSection from "../components/landing/HeroSection";
 import CraftingSection from "../components/landing/CraftingSection";
 import StatsSection from "../components/landing/Stats";
@@ -18,7 +18,7 @@ const LandingPage = () => {
 
   return (
     <div className="relative">
-      {/**<HeaderSection /> */}
+      <HeaderSection />
       <main className="w-full lg:mr-[420px]">
         <HeroSection />
         <CraftingSection />
