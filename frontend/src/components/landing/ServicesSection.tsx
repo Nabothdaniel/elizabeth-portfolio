@@ -98,7 +98,7 @@ const ServicesSection = () => {
       setScrambleText((prev) =>
         prev
           .split("")
-          .map((char, i) =>
+          .map((_, i) =>
             i < iteration ? "CONTACT ME"[i] : letters[Math.floor(Math.random() * 26)]
           )
           .join("")
