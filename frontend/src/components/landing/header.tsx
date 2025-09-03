@@ -1,7 +1,7 @@
 import { HiMenuAlt3 } from "react-icons/hi";
 import MobileMenu from "./MobileMenu";
 
-const Header = () => {
+const HeaderSection = () => {
   return (
     <>
       <header className="fixed top-0 w-full z-50 bg-transparent backdrop-blur-sm">
@@ -24,4 +24,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default HeaderSection;
