@@ -1,5 +1,5 @@
 import { HiMenuAlt3 } from "react-icons/hi";
-import MobileMenu from "./MobileMenu.tsx";
+import MobileMenu from "./MobileMenu";
 
 const HeaderSection = () => {
   return (
