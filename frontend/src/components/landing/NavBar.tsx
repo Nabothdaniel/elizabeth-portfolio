@@ -1,7 +1,7 @@
 import { HiMenuAlt3 } from "react-icons/hi";
 import MobileMenu from "./MobileMenu";
 
-const HeaderSection = () => {
+const NavBarSection = () => {
   return (
     <>
       <header className="fixed top-0 w-full z-50 bg-transparent backdrop-blur-sm">
@@ -24,4 +24,4 @@ const HeaderSection = () => {
   );
 };
 
-export default HeaderSection;
+export default NavBarSection;

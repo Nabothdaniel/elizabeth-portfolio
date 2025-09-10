@@ -15,12 +15,17 @@ const MobileMenu = () => {
   ];
 
   const handleNavClick = (href: string) => {
-    setIsOpen(false);
+  setIsOpen(false);
+
+  // Run smooth scroll only on client
+  if (typeof window !== "undefined") {
     const element = document.querySelector(href);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     }
-  };
+  }
+};
+
 
   return (
     <div className="lg:hidden">
