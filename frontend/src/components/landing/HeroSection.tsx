@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
-import heroImg from "../../assets/img/hero-img.jpg";
+import heroImg from "../../assets/img/project_30.jpeg";
 
 const HeroSection = () => {
   const titleRef = useRef<HTMLHeadingElement>(null);
@@ -100,8 +100,13 @@ const HeroSection = () => {
             with your audience. Whether it’s digital, print, or brand
             storytelling—your vision deserves stunning visuals.
           </p>
-          <button className="inline-flex items-center gap-2 bg-white text-black px-6 py-3 rounded-full hover:bg-black hover:text-white transition-all duration-300">
-            <span>View Portfolio</span>
+          <a
+            href="https://wa.me/+2347019216964"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-white text-black px-6 py-3 rounded-full hover:bg-black hover:text-white transition-all duration-300"
+          >
+            <span>Let's Get Started</span>
             <svg
               className="w-4 h-4"
               fill="none"
@@ -115,7 +120,8 @@ const HeroSection = () => {
                 d="M9 5l7 7-7 7"
               />
             </svg>
-          </button>
+          </a>
+
         </div>
       </div>
     </section>

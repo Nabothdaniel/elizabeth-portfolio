@@ -10,7 +10,7 @@ const NavBarSection = () => {
             Elizabeth®
           </div>
           <div className="flex items-center gap-4 md:gap-8">
-            <span className="text-white text-xs md:text-sm hidden sm:block">say hi — elizabeth@gmail.com</span>
+            <span className="text-white text-xs md:text-sm hidden sm:block">say hi — amodataye84@gmail.com</span>
             <div className="hidden lg:block">
               <button className="text-white">
                 <HiMenuAlt3 size={24} />
