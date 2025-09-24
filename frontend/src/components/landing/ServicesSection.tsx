@@ -19,10 +19,29 @@ import project13 from "../../assets/img/project_13.jpeg";
 import project14 from "../../assets/img/project_14.jpeg";
 import project15 from "../../assets/img/project_15.jpeg";
 import project16 from "../../assets/img/project_16.jpeg";
+import project17 from "../../assets/img/project_17.jpeg";
+import project18 from "../../assets/img/project_18.jpeg";
+import project19 from "../../assets/img/project_19.jpeg";
+import project20 from "../../assets/img/project_20.jpeg";
+import project21 from "../../assets/img/project_21.jpeg";
+import project22 from "../../assets/img/project_22.jpeg";
+import project23 from "../../assets/img/project_23.jpeg";
+import project24 from "../../assets/img/project_24.jpeg";
+import project25 from "../../assets/img/project_25.jpeg";
+import project26 from "../../assets/img/project_26.jpeg";
+import project27 from "../../assets/img/project_27.jpeg";
+import project28 from "../../assets/img/project_28.jpeg";
+import project29 from "../../assets/img/project_29.jpeg";
+import project30 from "../../assets/img/project_30.jpeg";
+import project31 from "../../assets/img/project_31.jpeg";
 
 gsap.registerPlugin(ScrollTrigger);
 
 const projectData = [
+  project27,
+  project28,
+  project29,
+  project30,
   project1,
   project4,
   project5,
@@ -37,6 +56,17 @@ const projectData = [
   project14,
   project15,
   project16,
+  project17,
+  project18,
+  project19,
+  project20,
+  project21,
+  project22,
+  project23,
+  project24,
+  project25,
+  project26,
+  project31,
 ];
 
 const ServicesSection = () => {
