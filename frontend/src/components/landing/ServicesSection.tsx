@@ -276,7 +276,7 @@ const ServicesSection = () => {
           <h3 className="text-2xl md:text-4xl font-black text-primary mb-6">
             {scrambleText}
           </h3>
-          <div className="flex justify-center items-center gap-6">
+          <div className="flex flex-col md:flex-row justify-center items-center gap-6">
             <a
               href="mailto:amodataye84@gmail.com"
               className="flex items-center gap-2 px-5 py-3 bg-gray-900 text-white font-bold rounded-lg hover:bg-primary/80 transition"
